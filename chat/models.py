@@ -1,0 +1,12 @@
+from django.db import models
+from crowdfunding import settings
+# Create your models here.
+class Message(models.Model):
+    author = models.ForeignKey(settings.AUTH_USER_MODEL, null=False, on_delete=models.CASCADE)
+    content = models.TextField()
+    timestamp = models.DateTimeField(auto_now_add = True)
+
+    def __str__(self):
+        return self.author.username
+    def last_10_messages():
+        return Message.objects.order_by('-timestamp').all()[:10]
