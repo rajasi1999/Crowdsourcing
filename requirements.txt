@@ -68,7 +68,7 @@ django-paypal==0.2.5
 django-private-chat==0.2.2
 django-templated-mail==1.1.1
 django-uni-form==0.9.0
-djangorestframework==3.9.0
+djangorestframework==3.11.2
 djoser==1.4.0
 docutils==0.14
 drf-yasg==1.12.1
