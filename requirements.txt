@@ -10,7 +10,7 @@ astroid==1.6.5
 astropy==3.0.2
 async-timeout==3.0.1
 attrs==18.2.0
-autobahn==18.10.1
+autobahn==20.12.3
 Automat==0.7.0
 Babel==2.5.3
 backcall==0.1.0
